@@ -1,0 +1,5 @@
+nums =  [10, 15, 18, 30, 45, 50, 60]
+
+result = list(filter(lambda x: x % 3 == 0 and x % 5 == 0,nums ))
+
+print("Numbers divisible by both 3 and 5:", result)
